@@ -1,0 +1,109 @@
+.footer {
+  background-color: #f5f5fa;
+  padding: 32px 0;
+  display: block;
+  text-align: center;
+  line-height: 1.25;
+  @media screen and (max-width: 1439px) {
+      padding: 32px 0;
+    }
+  @media screen and (min-width: 1440px) {
+    padding: 40px 0;
+  }
+  
+
+  address {
+    font-style: normal;
+  }
+}
+.footer__container {
+  @media screen and (min-width: 1440px) {
+    display: flex;
+    padding: 0 32px;
+  }
+}
+
+.address {
+  @media screen and (max-width: 1439px) {
+    margin-top: 20px;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+}
+.footer__logo {
+  display: inline-block;
+  @media screen and (min-width: 1440px) {
+    margin-right: 277px;
+  }
+}
+.head {
+  display: block;
+  @media screen and (max-width: 767px) {
+    margin-bottom: 24px;
+  }
+  @media screen and (min-width: 768px) {
+      text-align: left;
+      margin-right: 52px;
+    }
+  @media screen and (min-width: 1440px) {
+    text-align: left;
+    margin-right: 103px;
+  }
+}
+.cont {
+  @media screen and (min-width: 768px) {
+    text-align: right;
+    margin-left: auto;
+  }
+  @media screen and (min-width: 1440px) {
+    text-align: left;
+  }
+}
+.soc {
+  @media screen and (min-width: 768px) {
+    text-align: left;
+  }
+  @media screen and (min-width: 1440px) {
+    margin-right: 161px;
+  }
+}
+.soc__list {
+  margin-bottom: 24px;
+}
+
+.soc__link:hover,
+.soc__link:focus {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #487996;
+}
+.cont__list {
+  margin-bottom: 24px;
+}
+.head__link:hover,
+.head__link:focus {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #487996;
+}
+.head__list :not(:last-child) {
+  margin-bottom: 8px;
+}
+.soc__list :not(:last-child) {
+  margin-bottom: 8px;
+}
+.cont__text {
+  margin-bottom: 8px;
+}
+.cont__link {
+  color: #487996;
+}
+.cont__link:hover,
+.cont__link:focus {
+  transition: color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #008cef;
+}
+.cont__tel :not(:last-child) {
+  margin-bottom: 8px;
+}

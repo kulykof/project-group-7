@@ -1,0 +1,128 @@
+<header class="header">
+  <div class="header-wrap container">
+    <a class="logo-link" href="./index.html">
+      <picture>
+        <source
+          srcset="
+            ./images/bitmap/logo/browser-png/logo_192x48.png     1x,
+            ./images/bitmap/logo/browser-png/logo_192x48.@2x.png 2x
+          "
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="
+            ./images/bitmap/logo/browser-png/logo_125x31.png    1x,
+            ./images/bitmap/logo/browser-png/logo_125x31@2x.png 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ./images/bitmap/logo/browser-png/logo_101x25.png    1x,
+            ./images/bitmap/logo/browser-png/logo_101x25@2x.png 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <img
+          src="./images/bitmap/logo/browser-png/logo_101x25.png"
+          alt="Логотип"
+        />
+      </picture>
+    </a>
+
+    <button
+      type="button"
+      class="menu-button"
+      data-menu-button
+      aria-expanded="false"
+    >
+      <svg class="menu-button" width="24" height="24">
+        <use
+          class="menu-button__close"
+          href="./images/sprite.svg#icon-cross"
+        ></use>
+      </svg>
+      <svg class="menu-button menu-button__menu" width="32" height="32">
+        <use
+          class="menu-button__menu"
+          href="./images/sprite.svg#icon-mobile-burger"
+        ></use>
+      </svg>
+    </button>
+    <button type="button" class="contact-button" aria-expanded="false">
+      <svg class="" width="24" height="24">
+        <use
+          class="menu-button__telephone"
+          href="./images/sprite.svg#icon-phone"
+        ></use>
+      </svg>
+    </button>
+
+    <div class="dropmenu-lang">
+      <p class="dropbtn-lang">Укр</p>
+      <div class="dropmenu-lang__content">
+        <a class="dropmenu-lang__link" href="">Рус</a>
+
+        <a class="dropmenu-lang__link" href="">Eng</a>
+      </div>
+    </div>
+    <div class="mobile-menu header__menu" data-menu>
+      <nav class="header-nav">
+        <ul class="header-nav__list">
+          <li class="header-nav__item">
+            <a
+              class="header-nav__link header-nav__link--current"
+              href="./index.html"
+              >Головна</a
+            >
+          </li>
+          <li class="header-nav__item">
+            <div class="dropmenu">
+              <p class="dropbtn">Послуги</p>
+              <div class="dropmenu__content">
+                <a class="header-dropmenu__link" href="./modeling.html"
+                  >3D Моделювання</a
+                >
+                <a class="header-dropmenu__link" href="./scanning.html"
+                  >3D Сканування</a
+                >
+                <a class="header-dropmenu__link" href="./printing.html"
+                  >3D Друк</a
+                >
+              </div>
+            </div>
+          </li>
+          <li class="header-nav__item">
+            <a class="header-nav__link" href="./take-order.html">Замовити</a>
+          </li>
+          <li class="header-nav__item">
+            <a class="header-nav__link" href="./contact.html">Контакти</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="modal-contact__menu">
+      <div class="triangle-wrap">
+        <ul class="header-contact__list">
+          <li class="header-contact__item">
+            <a class="header-contact__link" href="tel:+380936432288">
+              <svg class="header-contact__icon" width="14" height="14">
+                <use href="./images/sprite.svg#icon-phone"></use>
+              </svg>
+              +38 (093) 643 22 88</a
+            >
+          </li>
+          <li class="header-contact__item">
+            <a class="header-contact__link" href="tel:+380503454423">
+              <svg class="header-contact__icon" width="14" height="14">
+                <use href="./images/sprite.svg#icon-phone"></use>
+              </svg>
+              +38 (050) 345 44 23</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+

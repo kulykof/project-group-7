@@ -1,0 +1,160 @@
+.main-background {
+  background-image: url(../images/bckg/mobile/decor-main-mob.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: contain;
+
+  @include retina {
+    background-image: url(../images/bckg/mobile/decor-main-mob@2x.png);
+  }
+
+  @include tablet {
+    background-image: url(../images/bckg/tablet/decor-main-tablet.png);
+
+    @include retina {
+      background-image: url(../images/bckg/tablet/decor-main-tablet@2x.png);
+    }
+  }
+
+  @include desktop {
+    background-image: url(../images/bckg/desktop/decor-main-desk.png);
+
+    @include retina {
+      background-image: url(../images/bckg/desktop/decor-main-desk@2x.png);
+    }
+  }
+}
+
+.modeling-background {
+  background-image: url(../images/bckg/mobile/decor-modeling-mob.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: contain;
+
+  @include retina {
+    background-image: url(../images/bckg/mobile/decor-modeling-mob@2x.png);
+  }
+
+  @include tablet {
+    background-image: url(../images/bckg/tablet/decor-modeling-tablet.png);
+
+    @include retina {
+      background-image: url(../images/bckg/tablet/decor-modeling-tablet@2x.png);
+    }
+  }
+
+  @include desktop {
+    background-image: url(../images/bckg/desktop/decor-modeling-desk.png);
+
+    @include retina {
+      background-image: url(../images/bckg/desktop/decor-modeling-desk@2x.png);
+    }
+  }
+}
+
+.scanning-background {
+  background-image: url(../images/bckg/mobile/decor-scanning-mob.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: contain;
+
+  @include retina {
+    background-image: url(../images/bckg/mobile/decor-scanning-mob@2x.png);
+  }
+
+  @include tablet {
+    background-image: url(../images/bckg/tablet/decor-scanning-tablet.png);
+
+    @include retina {
+      background-image: url(../images/bckg/tablet/decor-scanning-tablet@2x.png);
+    }
+  }
+
+  @include desktop {
+    background-image: url(../images/bckg/desktop/decor-scanning-desk.png);
+
+    @include retina {
+      background-image: url(../images/bckg/desktop/decor-scanning-desk@2x.png);
+    }
+  }
+}
+
+.printing-background {
+  background-image: url(../images/bckg/mobile/decor-printing-mob.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: contain;
+
+  @include retina {
+    background-image: url(../images/bckg/mobile/decor-printing-mob@2x.png);
+  }
+
+  @include tablet {
+    background-image: url(../images/bckg/tablet/decor-printing-tablet.png);
+
+    @include retina {
+      background-image: url(../images/bckg/tablet/decor-printing-tablet@2x.png);
+    }
+  }
+
+  @include desktop {
+    background-image: url(../images/bckg/desktop/decor-printing-desk.png);
+
+    @include retina {
+      background-image: url(../images/bckg/desktop/decor-printing-desk@2x.png);
+    }
+  }
+}
+
+.take-order-background {
+  background-image: url(../images/bckg/mobile/decor-order-mob.png);
+background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: contain;
+  @include retina {
+    background-image: url(../images/bckg/mobile/decor-order-mob@2x.png);
+  }
+
+  @include tablet {
+    background-image: url(../images/bckg/tablet/decor-order-tablet.png);
+
+    @include retina {
+      background-image: url(../images/bckg/tablet/decor-order-tablet@2x.png);
+    }
+  }
+
+  @include desktop {
+    background-image: url(../images/bckg/desktop/decor-order-desk.png);
+
+    @include retina {
+      background-image: url(../images/bckg/desktop/decor-order-desk@2x.png);
+    }
+  }
+}
+
+.contacts-background {
+  background-image: url(../images/bckg/mobile/decor-contact-mob.png);
+background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: contain;
+
+  @include retina {
+    background-image: url(../images/bckg/mobile/decor-contact-mob@2x.png);
+  }
+
+  @include tablet {
+    background-image: url(../images/bckg/tablet/decor-contact-tablet.png);
+
+    @include retina {
+      background-image: url(../images/bckg/tablet/decor-contact-tablet@2x.png);
+    }
+  }
+
+  @include desktop {
+    background-image: url(../images/bckg/desktop/decor-contact-desk.png);
+
+    @include retina {
+      background-image: url(../images/bckg/desktop/decor-contact-desk@2x.png);
+    }
+  }
+}

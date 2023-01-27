@@ -1,0 +1,348 @@
+// .work-examples {
+//   @media screen and (max-width: 1439px) {
+//     padding-top: 40px;
+//     padding-bottom: 60px;
+//   }
+
+//   @media screen and (min-width: 1440px) {
+//     padding-top: 100px;
+//     padding-bottom: 80px;
+//   }
+
+//   .container {
+//     @media screen and (min-width: 1440px) {
+//       padding-left: 32px;
+//       padding-right: 32px;
+//     }
+//   }
+// }
+.modeling-container {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.work-examples__title {
+  @extend .subtitle;
+
+  @media screen and (min-width: 768px) and (max-width: 1439px) {
+    max-width: 439px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    max-width: 652px;
+    margin-left: 117px;
+  }
+}
+
+.work-examples__image {
+  &:nth-child(odd) {
+    border-bottom-left-radius: 50px;
+  }
+
+  &:nth-child(even) {
+    border-radius: 50px 0px;
+  }
+
+  @media screen and (min-width: 768px) {
+    min-width: 100%;
+  }
+}
+
+.work-examples__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+
+  @media screen and (max-width: 767px) {
+    max-width: 280px;
+  }
+
+  @media screen and (max-width: 767px) {
+    margin-top: 16px;
+    margin-bottom: 40px;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-top: 24px;
+    margin-bottom: 60px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 1377px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
+}
+
+.work-examples__item {
+  @media screen and (max-width: 767px) {
+    max-width: 130px;
+    width: calc((100% - 20px) / 2);
+
+    &:nth-child(odd) {
+      margin-right: 20px;
+    }
+
+    &:not(:nth-last-child(-n + 2)) {
+      margin-bottom: 16px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    max-width: 152px;
+    width: calc((100% - (32px * 3)) / 4);
+
+    &:not(:last-child) {
+      margin-right: 32px;
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    max-width: 320px;
+  }
+}
+
+.work-examples__btn-box {
+  text-align: center;
+}
+
+.order-form__button {
+  @include btn;
+  display: inline-block;
+  max-width: 280px;
+  margin-bottom: 60px;
+  @media screen and (min-width: 1440px) {
+    margin-bottom: 80px;
+  }
+}
+
+.modeling-hero {
+  @media screen and (min-width: 1440px) {
+    padding-top: 100px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1439px) {
+    padding-top: 34px;
+  }
+}
+
+.modeling-hero__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.24;
+  color: #487996;
+  margin-bottom: 16px;
+
+  @media screen and (min-width: 768px) and (max-width: 1439px) {
+    font-size: 36px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 48px;
+    margin-bottom: 24px;
+  }
+}
+
+.modeling-hero__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+
+  @media screen and (min-width: 1440px) {
+    display: flex;
+    gap: 72px;
+  }
+}
+
+.modeling-hero__item {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #2b2b2b;
+
+  @media screen and (min-width: 768px) {
+    width: 515px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 18px;
+  }
+}
+
+// .modeling__container {
+//   @media screen and (min-width: 768px) {
+//     padding-left: 32px;
+//     padding-bottom: 40px;
+//   }
+//   @media screen and (min-width: 1440px) {
+//     padding-left: 149px;
+//     padding-bottom: 100px;
+//   }
+// }
+
+.methods {
+  padding-top: 40px;
+
+  @media screen and (min-width: 1440px) {
+    padding-top: 100px;
+  }
+}
+
+.methods__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: #487996;
+  margin-bottom: 16px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 36px;
+    margin-bottom: 24px;
+  }
+}
+
+.methods__item {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #2b2b2b;
+
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 18px;
+  }
+}
+
+.methods__item::before {
+  content: '';
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background: #487996;
+  border-radius: 3px 0px;
+  left: 8px;
+}
+
+// .methods-box {
+//   padding-left: 20px;
+//   padding-right: 20px;
+//   padding-bottom: 40px;
+//   @media screen and (min-width: 768px) {
+//     padding: 30px 32px 40px;
+//   }
+//   @media screen and (min-width: 1440px) {
+//     padding-top: 100px;
+//     padding-bottom: 100px;
+//     padding-left: 149px;
+//   }
+// }
+
+.modeling-hero__list {
+  @media screen and (min-width: 1440px) {
+    display: flex;
+    gap: 72px;
+  }
+}
+
+.methods__list {
+  position: relative;
+  margin-bottom: 40px;
+
+  @media screen and(min-width:768px) {
+    margin-bottom: 0;
+  }
+}
+
+.methods__item {
+  position: relative;
+  margin-left: 8px;
+  padding-left: 8px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #2b2b2b;
+
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background: #487996;
+    border-radius: 3px 0px;
+    left: -8px;
+    top: 7px;
+  }
+
+  @media screen and(min-width:768px) {
+    padding-left: 10px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 18px;
+    padding-left: 9px;
+  }
+}
+
+.methods-wrap {
+  position: relative;
+
+  @media screen and(min-width:768px) {
+    display: flex;
+  }
+}
+
+.background-box {
+  width: 100%;
+  height: 164px;
+  background-image: url(../images/bitmap/3d-modeling/mobile/3d-model.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(../images/bitmap/3d-modeling/mobile/3d-model@2x.png);
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1439px) {
+    position: absolute;
+    top: 0%;
+    right: 0;
+    width: 246px;
+    height: 144px;
+    background-image: url(../images/bitmap/3d-modeling/tablet/3d-model.png);
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../images/bitmap/3d-modeling/tablet/3d-model@2x.png);
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 555px;
+    height: 301px;
+    background-image: url(../images/bitmap/3d-modeling/desktop/3d-model.png);
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../images/bitmap/3d-modeling/desktop/3d-model@2x.png);
+    }
+  }
+}

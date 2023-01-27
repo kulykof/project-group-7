@@ -1,0 +1,286 @@
+.printing {
+  // margin-bottom: 37.82px;
+
+  // @media screen and (min-width: 768px) {
+  //   margin-bottom: 40px;
+  // }
+  @media screen and (min-width: 1440px) {
+    // // margin-top: 0;
+    // // // padding-top: 0;
+    // margin-bottom: 0;
+  }
+}
+
+.printing__title {
+  font-family: 'Cera Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25em;
+
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+
+  color: $accentTextColor;
+
+  @media screen and (min-width: 768px) {
+    font-size: 36px;
+
+    // margin-left: 149px;
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: 48px;
+    margin-bottom: 24px;
+    margin-left: 149px;
+    // margin-right: 667px;
+  }
+}
+.our-service {
+  margin-bottom: 60px;
+  @include desktop {
+    margin-bottom: 80px;
+  }
+}
+.our-processes {
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+
+  @include tablet {
+    gap: 60px;
+    // width: 768px;
+  }
+
+  @include desktop {
+    gap: 100px;
+    // width: 1054px;
+  }
+}
+
+.process-item {
+  // width: 704px;
+  display: flex;
+
+  gap: 20px;
+
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+  }
+
+  @include desktop {
+    gap: 86px;
+    // align-items: center;
+  }
+}
+.process-thumb {
+  @media screen and (max-width: 767px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.thumb-img {
+  border-radius: 50px 0px;
+  box-shadow: (20px 20px 80px rgba(0, 0, 0, 0.15));
+}
+
+.process-description {
+  color: $mainTextColor;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.25;
+
+  @include tablet {
+    font-weight: 400;
+  }
+
+  @include desktop {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.43;
+  }
+}
+
+.process-description span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  color: $accentTextColor;
+}
+
+.process-description:not(:last-of-type) {
+  margin-bottom: 16px;
+
+  @include desktop {
+    margin-bottom: 24px;
+  }
+}
+
+.printing__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 16px 20px;
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    max-width: 280px;
+  }
+  @media screen and (min-width: 768px) {
+    gap: 32px;
+  }
+  @media screen and (min-width: 1440px) {
+    flex-wrap: nowrap;
+    gap: 32px;
+  }
+}
+
+.printing__item {
+  width: 130px;
+  height: 158px;
+  background: #ffffff;
+  opacity: 0.8;
+  box-shadow: inset 1px 1px 16px rgba(203, 203, 203, 0.8),
+    inset -1px -1px 16px #ffffff;
+  border-radius: 50px 0px;
+
+  @media screen and (min-width: 768px) {
+    width: 152px;
+    height: 182px;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 320px;
+    height: 382px;
+  }
+}
+
+.printing-hero__img {
+  margin: 0 auto;
+  align-content: center;
+}
+
+.hero-img__1 {
+  margin-top: 27.08px;
+  margin-bottom: 17.06px;
+  margin-left: 17.08px;
+  margin-right: 23.09px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 31.14px;
+    margin-bottom: 19.61px;
+    margin-left: 19.97px;
+    margin-right: 27px;
+  }
+  @media screen and (min-width: 1440px) {
+    margin-top: 40px;
+    margin-bottom: 20.97px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+.hero-img__2 {
+  margin-top: 38.22px;
+  margin-bottom: 16.67px;
+  margin-left: 17.16px;
+  margin-right: 11.96px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 44.02px;
+    margin-bottom: 19.2px;
+    margin-left: 20.06px;
+    margin-right: 13.98px;
+  }
+  @media screen and (min-width: 1440px) {
+    margin-top: 40px;
+    margin-bottom: 20.24px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+.hero-img__3 {
+  margin-top: 31.32px;
+  margin-bottom: 16.67px;
+  margin-left: 43.68px;
+  margin-right: 43.16px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 36.01px;
+    margin-bottom: 19.16px;
+    margin-left: 51.07px;
+    margin-right: 50.46px;
+  }
+  @media screen and (min-width: 1440px) {
+    margin-top: 40px;
+    margin-bottom: 20.24px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+.hero-img__4 {
+  margin-top: 23.9px;
+  margin-bottom: 9.25px;
+  margin-left: 22.88px;
+  margin-right: 23.4px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 27.48px;
+    margin-bottom: 10.63px;
+    margin-left: 26.75px;
+    margin-right: 27.36px;
+  }
+  @media screen and (min-width: 1440px) {
+    margin-top: 40px;
+    margin-bottom: 20.24px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+.printing-hero__title {
+  font-family: 'Cera Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.3em;
+  text-align: center;
+
+  color: $accentTextColor;
+
+  @media screen and (min-width: 1440px) {
+    font-size: 18px;
+  }
+}
+.order-link {
+  @include btn;
+  // padding: 16px 32px;
+  // box-shadow: $btnBoxShadow;
+  // border-radius: 30.5px;
+  // background-color: $btnBckgColor;
+  // color: $accentTextColor;
+  // font-weight: 700;
+  // font-size: 16px;
+  // line-height: 1.5;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  @media screen and (max-width: 767px) {
+    margin-top: 24px;
+  }
+  @include tablet {
+    margin-top: 56px;
+    margin-left: 12px;
+    width: 280px;
+    height: 50px;
+  }
+}
+.process-card {
+  @include desktop {
+    margin-right: 87px;
+  }
+}

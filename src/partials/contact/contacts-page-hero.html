@@ -1,0 +1,151 @@
+<section class="contacts">
+  <div class="container contacts-container">
+    <h2 class="contacts__title">КОНТАКТИ</h2>
+    <div class="contacts__flex-box">
+      <div class="contacts-frame">
+        <iframe
+          class="iframe"
+          src="https://www.youtube.com/embed/z4DqRIrhP_E"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="contacts-wrap">
+        <ul class="contact__list">
+          <li class="contacts__item">
+            <p class="contacts__textos">
+              Людина уперше побачивши процес 3D друку може легко захопитися
+              спостереженням за цим процесом не на десяток хвилин.
+            </p>
+          </li>
+          <li class="contacts__item">
+            <p class="contacts__textos">
+              Наша команда створює timelapse відео що б ви могли краще
+              ознайомитися з технологією 3D друку і просто помилуватися красою
+              цього процесу.
+            </p>
+          </li>
+          <li class="contacts__item">
+            <div class="colobok-wrap">
+              <p class="contacts__textos colobok-parent">
+                Приємного перегляду!
+              </p>
+              <picture class="smile-png">
+                <source
+                  srcset="
+                    ./images/bitmap/contacts/desktop/emoji.png    1x,
+                    ./images/bitmap/contacts/desktop/emoji@2x.png 2x
+                  "
+                  media="(min-width:1440px)"
+                />
+                <source
+                  srcset="
+                    ./images/bitmap/contacts/tablet/emoji.png    1x,
+                    ./images/bitmap/contacts/tablet/emoji@2x.png 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./images/bitmap/contacts/mobile/emoji.png    1x,
+                    ./images/bitmap/contacts/mobile/emoji@2x.png 2x
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="./images/bitmap/contacts/desktop/emoji.png"
+                  alt="смайлик"
+                />
+              </picture>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <form>
+      <div class="desktop__flex">
+        <div class="button__position">
+          <div class="contacts__form-flex">
+            <h2 class="contacts__form-title">ЗВ’ЯЖІТЬСЯ З НАМИ</h2>
+            <label class="contacts__form-lable" for="name">Ім’я</label>
+            <input
+              class="contacts__form-input"
+              type="text"
+              id="name"
+              placeholder="Олексій"
+            />
+            <label
+              class="contacts__form-lable visually-hidden"
+              for="mail"
+            ></label>
+            <input
+              class="contacts__form-input"
+              type="text"
+              id="mail"
+              placeholder="Email"
+            />
+          <div class="contacts__textarea-wrap">
+            <label class="contacts__lable-textarea" for="coment">Повідомлення</label>
+            <textarea class="contacts__form-textarea" name="text" id="coment" rows="10"
+              placeholder="Залишіть своє повідомлення"></textarea>
+            <input type="file" id="file" class="contacts__input-file visually-hidden">
+            <label for="file" class="contacts__label-file">
+              <svg class="icon-input-file" width="22" height="20">
+                <use href="./images/sprite.svg#icon-input-file"></use>
+              </svg>
+            </label>
+            <p class="contacts__form-text">
+              *Прикріпіть зображення / креслення / STL / Obj / CAD-модель
+            </p>
+          </div>
+            
+          </div>
+          <a href="#" class="contacts__button">ВІДПРАВИТИ</a>
+        </div>
+
+        <div class="contacts__box">
+          <div class="number__tablet">
+            <h2 class="contacts__form-title">ТЕЛЕФОНИ</h2>
+            <ul>
+              <li class="contacts__number">
+                <a href="tel:+380957384551">
+                +38 (095) -73-84-551</a>
+              </li>
+              <li class="contacts__number">
+                <a href="tel:++380980025235">
+                  +38 (098) -00-25-235</a>
+              </li>
+            </ul>
+          </div>
+          <div class="mail__tablet">
+            <h2 class="contacts__form-title contacts__form-title--text">
+              Email
+            </h2>
+            <a class="contacts__mail" 
+            href="mailto:3dfreedom.info@gmail.com">
+            3dfreedom.info@gmail.com
+          </a>
+          </div>
+          <div class="time__tablet">
+            <h2 class="contacts__form-title contacts__form-title--position">
+              Робочий час
+            </h2>
+            <ul class="contacts__list--flex">
+              <li class="contacts__work-time">
+                Пн-пт:<span class="contacts__item--position"
+                  >&nbsp;з 8:00 до 19:00</span
+                >
+              </li>
+              <li class="contacts__work-time">
+                Сб, Нд:<span class="contacts__item--position"
+                  >&nbsp;з 10:00 до 17:00</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>

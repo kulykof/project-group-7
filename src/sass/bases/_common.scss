@@ -1,0 +1,87 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+body {
+  font-family: 'Cera Pro', sans-serif;
+  color: #2b2b2b;
+}
+body.modal-open {
+  overflow: hidden;
+}
+
+body.menu-open {
+  @media screen and (max-width: 1439px) {
+    overflow: hidden;
+  }
+}
+section {
+  @media screen and (max-width: 1439px) {
+    padding-top: 40px;
+  }
+  @media screen and (min-width: 1440px) {
+    padding-top: 100px;
+  }
+}
+
+.main-section {
+  @media screen and (min-width: 1440px) {
+    padding-top: 120px;
+  }
+}
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+  @media screen and (min-width: 768px) {
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 768px;
+  }
+  @media screen and (min-width: 1440px) {
+    padding-left: 149px;
+    padding-right: 149px;
+    width: 1440px;
+  }
+}
+
+.photo-container {
+  @media screen and (min-width: 1440px) {
+    padding: 0 32px;
+  }
+}
+.title {
+  @include font($fw, 24px, $lh, $accentTextColor);
+
+  @include tablet {
+    @include font($fw, 36px, $lh, $accentTextColor);
+  }
+  @include desktop {
+    @include font($fw, $fs, $lh, $accentTextColor);
+  }
+}
+.subtitle {
+  @include font($fw, 18px, 1.27, $accentTextColor);
+
+  @include tablet {
+    @include font($fw, 24px, $lh, $accentTextColor);
+  }
+  @include desktop {
+    @include font($fw, 36px, $lh, $accentTextColor);
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  margin: -1px;
+}
